@@ -1,10 +1,3 @@
-# ER-Plano-de-Saude
-Projeto Let's Code plano de saude, modelagem de banco
-
-
-
-
-
 CREATE TABLE produto (
     id int not null primary key identity generated always as identity,
     cod_ans int not null unique,
